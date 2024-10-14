@@ -2,6 +2,6 @@ specfile_path: logos.spec
 jobs:
   - job: copr_build
     trigger: commit
-    branch: debug/s390x
+    branch: debug/s390x-0.14.1
     owner: lecris
     project: logos-s390x
